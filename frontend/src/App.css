@@ -1,0 +1,368 @@
+   @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Montserrat:wght@500;700&family=Overpass:wght@400;700&family=Poppins:wght@200&family=Roboto:wght@400;700&display=swap');
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 8px 20px 8px 20px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  width: 100%;
+}
+.menul {
+  font-size: 50px;
+  text-decoration: none;
+  color: #BD0000;
+  font-family: 'Irish Grover', serif;
+}
+.menuli {
+  display: flex;
+  justify-content: space-between;
+}
+.menuly {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
+  font-family:'Poppins', sans-serif; 
+  font-weight: 600;
+}
+.icn {
+  margin-left: 20px;
+} 
+.img {
+ width: 100%;
+ 
+}
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  width: 40%;
+  background-color: white ;
+  color: hsl(240, 2%, 12%);
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.buttonicon {
+  background-color: #BD0000;
+  color: white;
+  height: 30px;
+  padding: 7px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 45px!important;
+  cursor: pointer;
+}
+.recipe {
+  border: none;
+  width: 100%;
+  border: 1px solid hsl(231, 7%, 60%);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 10px;
+  border-right: none;
+}
+.g-4 {
+  padding-left: 70px;
+  padding-right: 70px;
+  
+}
+.crd {
+  border: none!important;
+  margin-bottom: 25px;
+}
+.crd img {
+  border-radius: unset!important ;
+  height: 50vh;
+}
+.cod {
+  position: relative;
+  opacity: 1;
+}
+.overlay-text {
+  position: absolute;
+  opacity: 0;
+  padding-left: 10px;
+  /* border: 3px solid red; */
+  width: 100%;
+}
+.overlay-text-center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.cod:hover .overlay-text {
+  background-color: rgba(0,0,0,0.8);
+  height: 100%;
+  opacity: 2;
+  cursor: pointer;
+  
+}
+.p {
+  font-family:'Poppins', sans-serif; 
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
+}
+.icon {
+  display: flex;
+  color: white;
+  margin-left: 0;
+}
+.btnz {
+  border: none;
+  background-color: red;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+.pin {
+  display: block;
+  text-align: center;
+  background-color: #000020;
+  color: white;
+  padding: 20px;
+  margin-top: 60px;
+}
+.icns{
+  margin-bottom: 20px;
+  display: flex;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-size: 30px!important;
+} 
+.pin p {
+  margin-top: 15px;
+}
+.pin h6{
+  margin-top: 10px;
+} 
+
+
+.box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('img.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow-x: hidden;
+  
+} 
+.box h1 {
+  font-size: 50px;
+  text-decoration: none;
+  color: #BD0000;
+  font-family: 'Irish Grover', serif;
+  margin-top: 50px;
+}
+.ctn {
+  width: 100%;
+}
+ .cont {
+  display: flex;
+  align-items: center;
+  width: 45.5%;
+  height: 100vh;
+  background-color: rgba(189, 0, 0, 0.30);
+  padding: 50px;
+}  
+ .cont p {
+  color: white;
+  font-size: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  
+}
+.cont button {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(197, 3, 3);
+  color: white;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mb-3 {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+
+.containerRecipe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.containr {
+  display: flex;
+  justify-content: center;
+}
+.imgg {
+  width: 60ch;
+  height: 700px;
+  object-fit: cover;
+  
+
+}
+
+.details {
+  padding-left: 20px;
+  padding-top: 20px;
+  width: 60ch;
+  padding-right: 20px;
+  background-color: rgba(189, 0, 0, 0.25);
+}
+.details h4 {
+  padding-top: 20px;
+  color: #BD0000;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+.details h5 {
+  color: #000020;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.details h6 {
+  font-size: 15px;
+  padding-left: 15px;
+}
+.form {
+  width: 54%;
+}
+.likes {
+  display: flex;
+}
+.btnn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.tbn {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(197, 3, 3);
+  color: white;
+  width: 15%;
+  padding: 8px;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+
+
+.bl-img {
+  background-image: url('images/fruit.png');
+  height: 100vh;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.nav{
+  background-color: transparent;
+}
+.tact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.fom{
+  background-color: rgba(189, 0, 0, 0.30);
+  padding: 50px;
+  width: 30%;
+}
+.fom p {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  margin-top: -25px;
+  margin-bottom: 30px;
+  
+}
+.frm{
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.frmr {
+  width: 100%;
+  padding-bottom: 90px;
+  border-radius: 15px;
+  padding-left: 8px;
+  padding-top: 8px;
+}
+.ton {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(197, 3, 3);
+  color: white;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+
+.about {
+  background-image:  url('images/table.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.us {
+  background-color: rgba(189, 0, 0, 0.25);
+  width: 40%;
+  
+  margin: auto;
+  padding: 70px;
+  margin-top: 70px;
+  color: white;
+  font-size: 18px;
+}
+.us h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
